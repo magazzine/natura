@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "natura-regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/NaturaSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NaturaSans-Regular.woff") format("woff"), url("../fonts/NaturaSans-Regular.ttf") format("truetype"), url("../fonts/NaturaSans-Regular.svg#NaturaSans-Regular") format("svg");
+}
+@font-face {
+  font-family: "GillSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gillsanslight.eot?#iefix") format("embedded-opentype"), url("../fonts/gillsanslight.woff") format("woff"), url("../fonts/gillsanslight.ttf") format("truetype"), url("../fonts/gillsanslight.svg#gillsanslight") format("svg");
+}
+
+body{
+  font-family: "natura-regular","GillSans",helvetica;
+  margin: 0;
+}
+figure{
+  margin:0;
+}
+header{
+  background-color: #F5F5F5;
+  padding:10px 14px;
+  border-bottom:1px solid #979797;
+}
+section.content{
+  padding:10px 14px;
+  margin-bottom: 50px;
+}
+article.card{
+  border:1px solid #E2E2E2;
+  padding:10px 18px;
+  margin:0 0 20px 0;
+}
+.title{
+  font-size:12px;
+  background-color:#850012;
+  color:#F4EFEF;
+  display:inline-block;
+  line-height:23px;
+  padding:0 10px;
+  margin:0;
+}
+.title a{
+  color:#F4EFEF;
+  text-decoration: none;
+}
+.card h3{ 
+  font-size:18px;
+  margin:10px 0;
+}
+.article img{
+  padding-bottom:12px;
+  border-bottom:1px solid #979797;
+  max-width: 100%;
+}
+.article figcaption{
+  font-size: 12px;
+  font-family: "GillSans";
+  max-width:100%;
+  text-align: justify;
+}
+.price_container{
+  display:flex;
+  flex-direction: row-reverse;
+}
+.price{
+  font-size: 16px;
+  background-color:#850012;
+  color:#F4EFEF;
+  display:inline-block;
+  margin-top:25px;
+  line-height: 27px;
+  padding: 0px 6px 0px 12px;
+}
+footer{
+  background-color: #F5F5F5;
+  height:60px;
+  position:fixed;
+  bottom:0px;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+footer li{
+  display: inline-block;
+}
+.icon{
+  height: 35px;
+  width: 35px;
+  display:inline-block;
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  /* background-color: transparent; /1* make the button transparent *1/ */
+  /* background-position: 0px 0px;  /1* equivalent to 'top left' *1/ */
+  /* border: none;           /1* assuming we don't want any borders *1/ */
+  /* cursor: pointer; */ 
+}
+.home{
+  background-image: url('../images/homelogo.png');
+}
+.search{
+  background-image: url('../images/lupa.png');
+}
+
+
+.row_grid{
+  width:100%;
+}
+
+.square{
+  width:30%;
+  position:relative;
+  padding-bottom:30%;
+  background-color: red;
+  float: left;
+  margin: 1.6%;
+
+}
+.square_content{
+  position:absolute;
+  height:100%; /* = 100% - 2*10% padding */
+  width:100%; /* = 100% - 2*5% padding */
+}
+img.img_square{
+  width:auto;
+  height:auto;
+  height:100%;
+}
+/* list */
+.search_box {
+  width:100%;
+  box-sizing: border-box;
+  padding:0 40px;
+  margin-bottom: 14px;
+}
+
+.search_box input{
+  line-height: 30px;
+  width:100%;
+  border:1px solid #737272;
+  padding: 0 18px;
+  box-sizing: border-box;
+  border-radius: 14px;
+
+}
+
+.link_section{
+  background-color:#850012;
+  color:#F4EFEF;
+  font-size:16px;
+  line-height: 40px;
+  margin-bottom: 6px;
+  padding: 0 10px 0 25px;
+}
+.link_section a{
+  color:#F4EFEF !important;
+  text-decoration:none;
+}
+.link_section span{
+  float:right;
+  position: relative;
+  top: 5px;
+}

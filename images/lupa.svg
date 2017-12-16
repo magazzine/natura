@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>lupa</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-253.000000, -18.000000)" stroke="#2E2E2E">
+            <g id="lupa" transform="translate(254.000000, 19.000000)">
+                <ellipse id="Oval" cx="10.2142857" cy="10.6206897" rx="10.2142857" ry="10.6206897"></ellipse>
+                <path d="M20.4642857,20.4827586 L27.5,27.7586207" id="Line" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
